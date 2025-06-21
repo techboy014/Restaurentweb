@@ -41,7 +41,9 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 30px 80px;
+    place-items: center;
 }
+
 
 .left  h1 {
     font-size: 40px;
@@ -54,7 +56,7 @@ section {
 
 .box {
     background: linear-gradient(to right, red, purple);
-    padding: 40px;
+    padding: 20px;
     border-radius: 12px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.123);
 }
