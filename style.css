@@ -67,6 +67,6 @@ section {
         display: none;
     }
     section {
-        grid-template-columns: 1fr;
+        flex-wrap: wrap;
     }
 }
