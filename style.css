@@ -38,13 +38,18 @@ nav ul li a {
 section {
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
     padding: 30px 80px;
 }
 
-
+.container  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 .left  h1 {
     font-size: 40px;
     margin-bottom: 10px;
@@ -56,6 +61,8 @@ section {
 
 .box {
     background: linear-gradient(to right, red, purple);
+    width: 300px;
+    height: 200px;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.123);
